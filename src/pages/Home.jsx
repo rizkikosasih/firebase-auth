@@ -17,7 +17,7 @@ const Home = () => {
         console.log('uid', uid);
       } else {
         // User is signed out
-        // ...
+        navigate('/');
         console.log('user is logged out');
       }
     });
