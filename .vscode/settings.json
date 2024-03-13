@@ -1,10 +1,7 @@
 {
-  "[css]": {
-    "editor.defaultFormatter": "bradlc.vscode-tailwindcss"
-  },
   // JS
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "[javascript][html][json][jsonc]": {
+  "[html][css][javascript][json][jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // Extension: Git
@@ -20,13 +17,20 @@
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "never"
   },
-  "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact"],
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
   "eslint.format.enable": true,
   // Package manager Configs
   "eslint.packageManager": "yarn",
   "npm.packageManager": "yarn",
   // Extension: cSpell
-  "cSpell.words": ["Customizer"],
+  "cSpell.words": [
+    "Customizer"
+  ],
   "search-node-modules.path": "node_modules",
   "markdown.extension.toc.updateOnSave": false
 }
